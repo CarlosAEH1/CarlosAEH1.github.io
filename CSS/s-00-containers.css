@@ -1,7 +1,4 @@
-html, .cajaVertical, .cajaHorizontal
-{
-  display: flex;
-}
+html, .cajaVertical, .cajaHorizontal{display: flex;}
 html{height: 100%;}
 body#index
 {
@@ -33,7 +30,7 @@ header.cajaHorizontal, footer.cajaHorizontal
   margin-right: 20px;
 }
 #cajaHorizontal{width: 20px;}
-@media (max-width: 425px)
+@media(max-width: 1024px)
 {
   header.cajaHorizontal, footer.cajaHorizontal
   {
