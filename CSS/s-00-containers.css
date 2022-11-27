@@ -28,16 +28,7 @@ header.cajaHorizontal, footer.cajaHorizontal
 #cajaHorizontal{width: 20px;}
 @media(max-width: 425px)
 {
-  header.cajaHorizontal, footer.cajaHorizontal
-  {
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-  }
-}
-@media(max-width: 375px)
-{
-  div#slim
+  header.cajaHorizontal, div#slim, footer.cajaHorizontal
   {
     flex-flow: column nowrap;
     align-items: center;
