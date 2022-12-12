@@ -1,6 +1,6 @@
 html, .cajaVertical, .cajaHorizontal{display: flex;}
 html{height: 100%;}
-body#index
+body.index
 {
   margin: auto;
   width: 100%;
@@ -24,11 +24,11 @@ header.cajaHorizontal, footer.cajaHorizontal
   margin-left: 20px;
   margin-right: 20px;
 }
-#cajaVertical{height: 20px;}
-#cajaHorizontal{width: 20px;}
+.bloqueVertical{height: 20px;}
+.bloqueHorizontal{width: 20px;}
 @media(max-width: 768px)
 {
-  div#slim
+  vertical
   {
     flex-flow: column nowrap;
     align-items: center;

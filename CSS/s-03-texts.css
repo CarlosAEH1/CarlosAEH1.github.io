@@ -1,16 +1,16 @@
 header, h1{font-size: 25px;}
 a{text-decoration: none;}
-#menu, section, h2{font-size: 20px;}
-#details, footer{font-size: 15px;}
+.menu, section, h2{font-size: 20px;}
+.details, footer{font-size: 15px;}
 @media(min-width: 1440px)
 {
   header, h1{font-size: 30px;}
-  #menu, section, h2{font-size: 25px;}
-  #details, footer{font-size: 20px;}  
+  .menu, section, h2{font-size: 25px;}
+  .details, footer{font-size: 20px;}  
 }
 @media(min-width: 2560px)
 {
   header, h1{font-size: 50px;}
-  #menu, section, h2{font-size: 40px;}
-  #details, footer{font-size: 30px;}  
+  .menu, section, h2{font-size: 40px;}
+  .details, footer{font-size: 30px;}  
 }
