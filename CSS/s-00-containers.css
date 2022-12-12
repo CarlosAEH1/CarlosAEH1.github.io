@@ -28,7 +28,7 @@ header.cajaHorizontal, footer.cajaHorizontal
 .bloqueHorizontal{width: 20px;}
 @media(max-width: 768px)
 {
-  vertical
+  .vertical
   {
     flex-flow: column nowrap;
     align-items: center;
