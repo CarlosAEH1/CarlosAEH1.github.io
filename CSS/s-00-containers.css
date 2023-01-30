@@ -26,6 +26,12 @@ header.cajaHorizontal, footer.cajaHorizontal
 }
 .bloqueVertical{height: 20px;}
 .bloqueHorizontal{width: 20px;}
+.project
+{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
 @media(max-width: 768px)
 {
   .vertical
